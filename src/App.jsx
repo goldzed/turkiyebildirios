@@ -6,8 +6,6 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet.heat';
 import { Megaphone, AlertTriangle, HeartHandshake, Lightbulb, Info, PieChart, X } from 'lucide-react';
 
-// Devamı aşağıda yer alacak
-export default function HomePage() {
 export default function HomePage() {
   const [participantCount, setParticipantCount] = useState(Math.floor(Math.random() * 900000) + 100000);
   const [selectedCoords, setSelectedCoords] = useState(null);
